@@ -1,0 +1,2 @@
+# faturamento.js
+Diary
