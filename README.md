@@ -6,7 +6,12 @@ function Empresa(RazaoSocial){
     console.log(` Razao Social : ${RazaoSocial}`);
 function ResponsavelLegal(Beneficiario){
     console.log(` Titular : ${Beneficiario}`);
-//function RG()
+function RegistroGeral(RG){
+    console.log(` RG: ${RG}`);
+function Telefone(Fone){
+    console.log(` Celular : ${Fone}`);
+function Local(localStorage){
+    console.log(` Local : ${localStorage}`);
 ((_faturamento)=>{
    var CNPJ = '35.669.326/0001-90';
    var CPF = '275.551.158-32';
@@ -18,7 +23,7 @@ function ResponsavelLegal(Beneficiario){
                console.log(" Margem Renda R$"+Valor+" Diary [*"+Diary+"]");
                for (let faturamento = Valor; faturamento < Array.length; faturamento++) {
                 const element = Array[faturamento];
-                 return Valor;
+                 return faturamento;
                };    
             }
         })();
@@ -26,6 +31,12 @@ function ResponsavelLegal(Beneficiario){
         return CNPJ & CPF;
     } ;
 })();
+}
+Local("Brasil");
+}
+Telefone("5512996497466");
+}
+RegistroGeral("27.950.938-8");
 }
 ResponsavelLegal("Moises ferreira de lima");
 }
